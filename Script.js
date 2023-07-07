@@ -2,10 +2,10 @@
 let letra = 1;
 
 if ((letra % 4 === 0 && letra % 100 !== 0) || (letra % 400 === 0)) {
-  console.log("A letra indicada é uma consoante");
-} else {
-  console.log("A letra indicada é uma vogal");
-}
+    console.log("O caractere é uma vogal");
+  } else {
+    console.log("O caractere é uma consoante");
+  }
 
 
 //Exercício 2
@@ -49,7 +49,6 @@ else {
 
 
 // Exercício 4
-
 let valor = 10;
 
 if(valor % 2 === 0) {
@@ -62,7 +61,6 @@ else{
 
 
 //Exercício 5
-
 let numero = 16;
 
 if(numero > 0) {
