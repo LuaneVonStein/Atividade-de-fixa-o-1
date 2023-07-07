@@ -40,11 +40,11 @@ else if (nota === 100) {
 let valor = 0
 
 if (valor % 3 === 0 && valor % 5 === 0 ) {
-  console.log("O número" + valor + " é divisível por 3 ou por 5");
+  console.log("O número é divisível por 3 ou por 5");
 } 
 
 else {
-  console.log("O número" + valor + " não é divisível por 3 ou por 5");
+  console.log("O número não é divisível por 3 ou por 5");
 }
 
 
@@ -73,75 +73,63 @@ console.log("O número informado é negativo");
 
 
 //Exercício 6
-let contador = 100;
+let times = ["Corinthians", "São Paulo", "Flamengo"];
 
-while(contador <= 1){
-    console.log(contador);
-    contador--;
-    const numero = [1, 2, 3, 4, 5];
-
-for(let number of numero){
-        console.log(number)
-    }
-}    
+times.forEach(function(times) {
+  console.log(times);
 
 
 //Exercício 7
-const numero = [a, b, c];
+let nome = "Damasceno";
 
-for(let number of numero){
-    console.log(number);
+for (let caractere of nome) {
+  console.log(caractere);
 }
 
 
 //Exercício 8
-let divisível = 0
-
-for(let i = 1; i <= 10; i++){
-    soma + = i;
+let numero = 1;
+while (true) {
+  if (numero % 5 === 0 && numero % 7 === 0) {
+    console.log("O  número divisível por 5 e 7 é" , numero);
+    break;
+  }
+  numero++;
 }
-console.log("O valor da soma é: " + soma");
 
 
 //Exercício 9
-let contador  = 1;
-
-while (contador <=10) {
-    console.log(contador);
-    if(valor % 2 === 0) {
-        console.log("Somente números pares");
-    }
-    
-    else{
-        console.log("");
-    }
-    
-    contador++;
+let i = 0;
+do {
+  if (i % 2 !== 0) {
+    i++;
 }
+  console.log(i);
+  i++;
+} 
+while (i <= 10);
 
 
 //Exercício 10
-const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let cidades = ["Nova Andradina", "Ivinhema", "Taquarussu"];
 
-for(let num of numeros){
-  console.log(num);
+for (let city in cidades) {
+  console.log(city);
 }
 
 
 //Exercício 11
-let soma = 0;
-
-for(let i = 1; i >= 2; && >=3; && >=5; i++){
-  soma += i;
-    console.log("O número é divisível por: " + soma);
+while (number % 2 !== 0 || number % 3 !== 0 || number % 5 !== 0) {
+  number++;
 }
+console.log("O menor número divisível por 2, 3 e 5 é" , number);
 
 
 //Exercício 12
-const num5 = [10, 20, 30, 40];
+let letras = ["a", "b", "c", "d"];
 
-for (let [indice, num5] of num5.entries() ){
-    console.log("numero" + num5 + "na posição" + indice);
+for (let [indice, letra] of letras.entries()) {
+  console.log("Letra", letra, "na posição", indice);
 }
 
 
@@ -155,19 +143,17 @@ while (numero <= 10) {
 
 
 //Exercício 14
-let num4;
-
+let respostas;
 do {
-  num4 = parseInt(prompt("Digite um número entre 1 e 10"));
-} 
-    
-while ();
+  respostas = prompt("Deseja sair? (sim/não)");
+} while (respostas !== "sim");
+console.log("Ok, saída confirmada!");
 
 
 //Exercício 15
-const palavra = "palavra1";
+let palavra = "garrafa";
 
-for (let indice palavra) {
+for (let indice in palavra) {
   console.log(indice);
 }
 
@@ -177,7 +163,8 @@ const numero = parseInt(prompt("Digite um número inteiro positivo: "));
 
 if (numero < 2) {
   console.log("O número não é primo.");
-} else {
+} 
+else {
   let NumPrimo = true;
 
   for (let i = 2; i <= Math.sqrt(numero); i++) {
@@ -189,7 +176,8 @@ if (numero < 2) {
 
   if (NumPrimo) {
     console.log("O número é primo.");
-  } else {
+  } 
+  else {
     console.log("O número não é primo.");
   }
 }
@@ -199,7 +187,7 @@ if (numero < 2) {
 numeber = 10
 
 while number >= 1
-    print(number)
+    console.log(number)
     number -= 1
 
 
@@ -219,12 +207,13 @@ console.log("Você digitou o número " + numero1);
 //Execício 19
 let notas;
     do {
-    nota = parseInt(prompt("Digite dois números inteiros"));    
+   let nota = parseInt(prompt("Digite dois números inteiros"));    
 }
-    while (notas < 1 || nor=tas > 10; i++) {
+    while (notas < 1 || notas > 10; i++) {
         let soma = 0;
     }
 console.log("O valor da soma é: " + soma);
 
 
 //Exercício 20
+ 
