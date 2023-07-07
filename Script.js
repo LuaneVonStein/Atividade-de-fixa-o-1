@@ -148,9 +148,12 @@ for (let [indice, num5] of num5.entries() ){
 
 
 //Exercício 13
-let contador2 = 2;
+let numero = 1;
 
-while(contador2 <= )
+while (numero <= 10) {
+  console.log(numero);
+  numero += 2;
+}
 
 
 //Exercício 14
@@ -162,16 +165,44 @@ do {
     
 while ();
 
+
 //Exercício 15
-const number = 
+const palavra = "palavra1";
+
+for (let indice palavra) {
+  console.log(indice);
+}
 
 
 //Exercício 16
+const numero = parseInt(prompt("Digite um número inteiro positivo: "));
 
+if (numero < 2) {
+  console.log("O número não é primo.");
+} else {
+  let NumPrimo = true;
+
+  for (let i = 2; i <= Math.sqrt(numero); i++) {
+    if (numero % i === 0) {
+      NumPrimo = false;
+      break;
+    }
+  }
+
+  if (NumPrimo) {
+    console.log("O número é primo.");
+  } else {
+    console.log("O número não é primo.");
+  }
+}
 
 
 //Exercício 17
+numeber = 10
 
+while number >= 1
+    print(number)
+    number -= 1
 
 
 //Exercício 18
